@@ -1,7 +1,9 @@
 /**
  *  Copyright 2020 Markus Liljergren (https://oh-lalabs.com)
  *
- *  Version: v1.0.1.1123
+ *  Modified 2021 Rob Fair 
+ *
+ *  Version: v1.0.2.0001
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -282,7 +284,7 @@ ArrayList<String> parse(String description) {
 }
 
 void sendMotionEvent(boolean active) {
-    logging("sendMotionEvent(active = $active)", 100)
+    logging("${device.displayName} - sendMotionEvent(active = $active)", 100)
     if(active == true) {
         sendEvent(name:"motion", value: "active", isStateChange: false, descriptionText: "Motion Active")
     } else {
@@ -291,17 +293,17 @@ void sendMotionEvent(boolean active) {
 }
 
 void resetMotionEvent() {
-    logging("resetMotionEvent()", 1)
+    logging("${device.displayName} - resetMotionEvent()", 1)
     sendEvent(name:"motion", value: "inactive", isStateChange: false, descriptionText: "Motion Inactive")
 }
 
 void resetToActive() {
-    logging("resetToActive()", 1)
+    logging("${device.displayName} - resetToActive()", 1)
     sendEvent(name:"motion", value: "active", isStateChange: true, descriptionText: "Motion was Reset to Active")
 }
 
 void resetToInactive() {
-    logging("resetToInactive()", 1)
+    logging("${device.displayName} - resetToInactive()", 1)
     sendEvent(name:"motion", value: "inactive", isStateChange: true, descriptionText: "Motion was Reset to Inactive")
 }
 

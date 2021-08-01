@@ -4,9 +4,14 @@ Apps and Drivers for Hubitat Elevation
 
 # License
 
-The license has been changed to GPLv3. If you need a copy under a different license for use in open source software where this license is not compatible, please feel free to contact the author to discuss alternatives.
+The license for the underlying package by Markus-Li is GPLv3, with the same license applying to 
+this code.
 
 # Instructions
 
-See the WiKi:
-https://github.com/markus-li/Hubitat/wiki
+These drivers are based on the excellent set developed by
+markus-li. 
+
+See the Wiki at: https://github.com/markus-li/Hubitat/wiki for more information.
+
+At this time the primary change is modified logging.

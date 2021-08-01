@@ -1,30 +1,27 @@
 {
   "packageName": "Sonoff Motion Sensor",
   "minimumHEVersion": "2.2.2",
-  "author": "Markus",
-  "dateReleased": "2020-11-23",
-  "betaLocation": "https://raw.githubusercontent.com/markus-li/Hubitat/development/packages/zigbee-sonoff-motion-sensor-beta.json",
-  "documentationLink": "https://oh-lalabs.com/docs/zigbee-sonoff-motion-sensor",
-  "communityLink": "https://community.oh-lalabs.com/t/release-xiaomi-aqara-opple-drivers-with-presence/77?u=markus",
+  "author": "Markus/Robf",
+  "dateReleased": "2021-08-01",
   "apps": [],
   "drivers": [
     {
-      "id": "c33a21ae-e526-5f21-8b63-46d59150a8f8",
-      "internalId": 1603,
+      "id": "c33a21ae-f526-5f21-8b63-46d59150a8f8",
+      "internalId": 1604,
       "name": "Zigbee - Sonoff Motion Sensor",
-      "namespace": "oh-lalabs.com",
+      "namespace": "robf17.com",
       "alternateNames": [
         {
           "name": "Zigbee - Sonoff Motion Sensor",
-          "namespace": "markus-li"
+          "namespace": "robf17"
         },
         {
           "name": "Sonoff Motion Sensor",
-          "namespace": "markus-li"
+          "namespace": "robf17"
         }
       ],
-      "version": "v1.0.1.1123",
-      "location": "https://raw.githubusercontent.com/markus-li/Hubitat/release/drivers/expanded/zigbee-sonoff-motion-sensor-expanded.groovy",
+      "version": "v1.0.2.0001",
+      "location": "https://raw.githubusercontent.com/robf17/Hubitat/release/drivers/expanded/zigbee-sonoff-motion-sensor-expanded.groovy",
       "required": true
     }
   ],
